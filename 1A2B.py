@@ -24,6 +24,6 @@ while not iswin:
     print("你答對了! ")
     iswin = True
   
-  elif user_input == "0000":
+  if user_input == ["0"] * 4:
     print(f"答案是: {answer}")
-    iswin = True
+    break
